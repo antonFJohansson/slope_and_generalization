@@ -2,7 +2,7 @@
 
 This repo contains the code to reproduce the results in the paper "Slope and generalization properties of neural networks".
 
-The code to replicate the experiments can be found in experiment_folder.
+The code to replicate the experiments can be found in experiment_code.
 
 The experiments can be run as follows:
 * Set the hyperparameters and model architectures to investigate in experiment_code/allParams/largeParams.txt
