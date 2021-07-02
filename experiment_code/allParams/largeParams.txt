@@ -1,0 +1,11 @@
+num_trained_models;[5]## Number of models for confidence intervals
+datas;['fc','MNIST', 'KMNIST' , 'FMNIST']## The datasets to consider
+batch_size;[64]## Batch size during training
+num_estimates;[750]## The number of points to evaluate the geometric properties on
+measure_every;[1]## The number of epochs between geoemtric measurements
+num_epochs;[150]## Number of epochs to train for
+base_folder_name;['Experiment 5']## The base folder name where the results are saved
+conv_model;[False]## If we should use a convolutional model or not
+depth;[1,2,3]## The number of layers in the network
+width;[25, 50, 100, 200]## The number of neurons or channels in each layer
+lr;[0.001]## The learning rate
