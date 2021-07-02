@@ -7,7 +7,7 @@ The code to replicate the experiments can be found in experiment_folder.
 The experiments can be run as follows:
 * Set the hyperparameters and model architectures to investigate in experiment_code/allParams/largeParams.txt
 * Run allHyperPara.py to create txt-files with the desired information.
-* Run main.py --param DESIRED_PARAMETER to train the network architectures and meaure the slope
+* Run main.py --param DESIRED_PARAMETER to train the network architectures and measure the slope
 * The local experiment can be found in experiment_code/localMeasure.py
 
 The visualization code to obtain the figures in the paper can be found in visualization_code.
